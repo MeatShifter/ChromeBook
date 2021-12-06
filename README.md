@@ -1,20 +1,21 @@
 # Chromebook 3
-All things shiny and chromified for *Samsung Chromebook 3* - *CELES*.
 
-***Note***: 
+All things shiny and chromified
+
 ---
+
 ## Baby Steps
   1. Enable Developer Mode
       - press ESC+F3(Refresh)+Power
 
   2. Boot ChromeOS and open Terminal
-      - Press *CTRL+D* at the white "ChromeOS is missing or damaged" (or "OS verification is OFF") screen
+      - Press *CTRL+D* boot screen
       - Configure Wi-Fi and log in (Guest account is fine)
       - press *CTRL+ALT+T* open terminal
       - type *shell* + *enter* key for usable shell
 
   3. Update firmware
-      - Samsung Chromebook 3 - *Intel Braswell* models require firmwre flashing. See [here](https://chrx.org/#chromebooks).
+      - *Intel Braswell* models require firmwre flashing. See [here](https://chrx.org/#chromebooks).
       - Run in ChromeOS:
         ```
          cd; curl -LO mrchromebox.tech/firmware-util.sh
@@ -28,9 +29,12 @@ All things shiny and chromified for *Samsung Chromebook 3* - *CELES*.
           **any issues see [this](https://mrchromebox.tech/#fwscript) page.*
           
 ---
-## Boot Configurations
 
-###### *CHRX* - dual boot Linux & ChromeOS
+## Boot Configurations
+a few diffrent boot configurations.
+Not to be confuse with ChromeOS [boot modes.]()
+
+*CHRX* - dual boot Linux & ChromeOS
 
 ```code
 curl https://chrx.org/ | sudo tar xzfC - /usr/local && chrx
@@ -44,3 +48,4 @@ curl https://chrx.org/ | sudo tar xzfC - /usr/local && chrx
 
 1. [Firmware Flash Utility](https://mrchromebox.tech/#fwscript)
 3. [CHRX](https://chrx.org/)
+4. [Chromium OS Docs](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md#dev-mode)
