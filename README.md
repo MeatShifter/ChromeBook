@@ -1,4 +1,4 @@
-# Chromebook
+# [Chromebook](https://www.google.com/chromebook/#:~:text=What%20is%20a%20Chromebook%3F)
 
 A place for all things shiny and chromified.
 
@@ -12,7 +12,7 @@ A place for all things shiny and chromified.
       - Press *```[CTRL+D]```* at boot time
       - Connect to network and log in
       - Open terminal with *```[CTRL]+[ALT]+[T]```* or for VT2 *```[ Ctrl ]+[ Alt ]+[ → ]```*
-      - At ***CROSH*** prompt type *```shell```* + *```[enter]```* for usable ChromeOS shell.
+      - At ***[CROSH](https://chromium.googlesource.com/chromiumos/platform2/+/master/crosh/README.md)*** prompt type *```shell```* + *```[enter]```* for usable ChromeOS shell.
 
   3. Update firmware with [Firmware Flash Utility](https://mrchromebox.tech/#fwscript)
       - Intel **Braswell** models require firmwre flashing. See [here](https://chrx.org/#chromebooks).
@@ -22,7 +22,7 @@ A place for all things shiny and chromified.
          sudo install -Dt /usr/local/bin -m 755 firmware-util.sh
          sudo firmware-util.sh
         ```
-      - Run in linux:
+      - Run in [Linux](https://linux.org):
           ```
           cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
           ```
