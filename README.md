@@ -1,6 +1,6 @@
-# Chromebook 3
+# Chromebook
 
-All things shiny and chromified
+A place for all things shiny and chromified.
 
 ---
 
