@@ -1,8 +1,8 @@
 # Chromebook 3
-#### *All things shiny and chromified* for Samsun Chromebook 3 *CELES*.
+All things shiny and chromified for *Samsung Chromebook 3* - *CELES*.
 
-***Note** - *Intel Braswell* model requires firmwre flashing. See compat list [here](https://chrx.org/#chromebooks)
-
+***Note***: 
+---
 ## Baby Steps
   1. Enable Developer Mode
       - press ESC+F3(Refresh)+Power
@@ -14,7 +14,7 @@
       - type *shell* + *enter* key for usable shell
 
   3. Update firmware
-      - required for Braswell models
+      - Samsung Chromebook 3 - *Intel Braswell* models require firmwre flashing. See [here](https://chrx.org/#chromebooks).
       - Run in ChromeOS:
         ```
          cd; curl -LO mrchromebox.tech/firmware-util.sh
@@ -25,22 +25,22 @@
           ```
           cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
           ```
-          **any issues see link*
+          **any issues see [this](https://mrchromebox.tech/#fwscript) page.*
+          
+---
 ## Boot Configurations
 
-  *CHRX* for dualbooting Linux alongside ChromeOS
-  ```
-  curl https://chrx.org/ | sudo tar xzfC - /usr/local && chrx
-  ```
-  - Follow on-screen instructions
-  - *NOTE*: chrx -p {$PKG_NAME} will install additional packages
-  - Example: 
-  ``` chrx -p steam ```
+###### *CHRX* - dual boot Linux & ChromeOS
 
-  5. Repeat steps 2 and 4 to install and configure your new system
+```code
+curl https://chrx.org/ | sudo tar xzfC - /usr/local && chrx
+```
+
+- Follow on-screen instructions
+- ``` chrx -p {$PKG_NAME}``` installs additional pkg's
 
 ---
-## Tools List
+## Tool Links
 
 1. [Firmware Flash Utility](https://mrchromebox.tech/#fwscript)
 3. [CHRX](https://chrx.org/)
