@@ -15,7 +15,7 @@ A place for all things shiny and chromified.
       - At ***[CROSH](https://chromium.googlesource.com/chromiumos/platform2/+/master/crosh/README.md#crosh-the-chromium-os-shell)*** prompt type *```shell```* + *```[enter]```* for usable ChromeOS shell.
 
   3. Update firmware with [Firmware Flash Utility](https://mrchromebox.tech/#fwscript)
-      - Intel **Braswell** models require firmwre flashing. See [here](https://chrx.org/#:~:text=p%20admin-misc-,compatibility,-chromebooks).
+      - Intel **Braswell** models require firmwre flashing. See [here](https://chrx.org/#:~:text=p%20admin-misc-,compatibility).
       - Execute in ChromeOS with user ***chronos***:
         ```
          cd; curl -LO mrchromebox.tech/firmware-util.sh
