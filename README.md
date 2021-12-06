@@ -6,17 +6,17 @@ All things shiny and chromified
 
 ## Baby Steps
   1. Enable Developer Mode
-      - press ESC+F3(Refresh)+Power
+      - Press *```[ESC]+[F3(Refresh)]+[Power]```*
 
-  2. Boot ChromeOS and open Terminal
-      - Press *CTRL+D* boot screen
-      - Configure Wi-Fi and log in (Guest account is fine)
-      - press *CTRL+ALT+T* open terminal
-      - type *shell* + *enter* key for usable shell
+  2. Boot ChromeOS
+      - Press *```[CTRL+D]```* at boot time
+      - Connect to network and log in
+      - Open terminal with *```[CTRL]+[ALT]+[T]```* or for VT2 *```[ Ctrl ]+[ Alt ]+[ → ]```*
+      - At ***CROSH*** prompt type *```shell```* + *```[enter]```* for usable ChromeOS shell.
 
-  3. Update firmware
-      - *Intel Braswell* models require firmwre flashing. See [here](https://chrx.org/#chromebooks).
-      - Run in ChromeOS:
+  3. Update firmware with [Firmware Flash Utility](https://mrchromebox.tech/#fwscript)
+      - Intel **Braswell** models require firmwre flashing. See [here](https://chrx.org/#chromebooks).
+      - Execute in ChromeOS with user ***chronos***:
         ```
          cd; curl -LO mrchromebox.tech/firmware-util.sh
          sudo install -Dt /usr/local/bin -m 755 firmware-util.sh
@@ -31,21 +31,19 @@ All things shiny and chromified
 ---
 
 ## Boot Configurations
-a few diffrent boot configurations.
-Not to be confuse with ChromeOS [boot modes.]()
 
-*CHRX* - dual boot Linux & ChromeOS
+  Not to be confuse with ChromeOS's [boot modes](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md#dev-mode).
 
-```code
-curl https://chrx.org/ | sudo tar xzfC - /usr/local && chrx
-```
+### ***[CHRX](https://chrx.org/)*** - dual boot Linux & ChromeOS
 
-- Follow on-screen instructions
-- ``` chrx -p {$PKG_NAME}``` installs additional pkg's
+  ```code
+  curl https://chrx.org/ | sudo tar xzfC - /usr/local && chrx
+  ```
+
+  - Follow on-screen instructions
+  - *Note*: ``` chrx -p {$PKG_NAME}``` installs additional pkg's
 
 ---
-## Tool Links
+#### Resources:
+[Chromium OS Docs](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md#dev-mode)
 
-1. [Firmware Flash Utility](https://mrchromebox.tech/#fwscript)
-3. [CHRX](https://chrx.org/)
-4. [Chromium OS Docs](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md#dev-mode)
